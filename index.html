@@ -14,20 +14,28 @@
 </head>
 
 <body>
-    <h1>UHRS CALCULATOR</h1>
-    <section>
-        <p>Expected time per hit (seconds):
-        <p><input class="form" type="tel" name="time" id="time"></p>
-        </p>
-        <p>Earnings per hit:
-        <p><input class="form" type="tel" name="money" id="money"></p>
-        </p>
-        <p><input id="button" type="button" value="Calculate" onclick='calculate()'></p>
-    </section>
+    <div class="wrapper">
+        <header>
+            <h1>HITAPPS PROFIT CALCULATOR</h1>
+        </header>
+        <section class="form">
+            <div class="time">
+                <h2>Expected time per hit (seconds):</h2>
+                <input type="tel" name="time" id="time" placeholder="0">
+            </div>
+
+            <div class="earnings">
+                <h2>Earnings per hit:</h2>
+                <input type="tel" name="money" id="money" placeholder="0.00">
+            </div>
+
+            <button onclick='calculate()'>CALCULATE</button>
+        </section>
+    </div>
     <div id='res'>
 
     </div>
-    <script src="/script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>

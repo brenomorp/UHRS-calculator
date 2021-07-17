@@ -1,64 +1,58 @@
 body {
-    background-color: #09216b;
+    background-color: #121212;
     color: white;
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    position: absolute;
+    padding: 1.5rem;
+    top: 0;
 }
 
 h1 {
     font-family: 'Montserrat';
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 600;
-    text-align: center;
-    margin-top: 30px;
 }
 
-section{
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.404);
-    position: absolute;
+h2, p {
     font-family: 'Open Sans';
-    font-size: 20px;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -80%);
-    border-radius: 15px;
-    padding: 10px;
+    font-size: 1.875rem;
+    margin-bottom: 1.25rem;
 }
 
-div {
-    display: inline-block;
-    position: absolute;
-    font-family: 'Open Sans';
-    font-size: 30px;
-    text-align: center;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+input {
+    margin-bottom: 1.25rem;
+    width: 18rem;
+    height: 2rem;
+    outline: none;
 }
 
-#button {
-    background-color: #1e60bb;
-    color: white;
-    width: 100px;
-    height: 30px;
-    border-radius: 100px;
-    font-family: 'Open Sans';
-    font-size: 15px;
-    font-weight: 500;
+button {
+    width: 14rem;
+    height: 2.5rem;
+    border-radius: 10rem;
+    background-color: #03DAC6;
+    color: #121212;
+    font-size: 1.5rem;
+    border: none;
+    font-family: 'Montserrat';
     cursor: pointer;
-    border: 0;
-    text-transform: uppercase;
+    margin-top: 1rem;
+    transition: 1s;
 }
 
-#button:hover {
-    background-color: #002080;
+button:hover {
+    transform: scale(1.1);
 }
 
-.form {
-    margin: 10px;
-    width: 240px;
-    height: 30px;
-    text-decoration: none;
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

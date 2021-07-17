@@ -13,7 +13,7 @@ function calculate() {
 
 
         res.innerHTML = `
-<p><strong>${n1}</strong> hits per hour</p>
+<p><strong>${n1.toFixed(1)}</strong> hits per hour</p>
 <p><strong>$${n2.toFixed(2)}</strong> per hour</p>
 `
     }
