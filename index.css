@@ -1,8 +1,9 @@
 body {
     background-color: #121212;
     color: white;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 header {
@@ -55,4 +56,9 @@ button:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+#res {
+    position: absolute;
+    bottom: 4rem;
 }
